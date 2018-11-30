@@ -5,15 +5,12 @@ using System.Collections.Generic;
 
 namespace HistoryList.Library
 {
-    public class HList<T> : List
+    public class HList<T> : List<T>
     {
-        HList.History()
+        public static var History(int listIndex, int itemIndex, out var listItem)
         {
-
-        }
-        HList.Add(addVar)
-        {
-            Generic.List.Add(addVar)
+            List<S> histList = new HList[listIndex];
+            var listItem = histList[itemIndex;]
         }
     }
 }
